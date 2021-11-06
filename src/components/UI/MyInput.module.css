@@ -1,0 +1,11 @@
+.myInput {
+  width: 320px;
+  height: 25px;
+  opacity: 100%;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+.myInput:focus {
+  background-color: white;
+}

@@ -1,0 +1,39 @@
+.wrapper-rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  width: 760px; 
+  border: black 1px solid;
+}
+.table-rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  /* width: 80%; */
+}
+
+.row-rate {
+  display: flex;
+  position: relative;
+}
+
+.row-rate:nth-child(odd) {
+  background: #e6e1e5;;
+}
+.box-rate {
+  border: black solid 1px;
+  padding: 20px;
+  flex-grow: 1;
+  text-align: center;
+  /* overflow: hidden  ; */
+  /* flex-basis: auto; */
+  /* word-wrap: break-word; */
+  flex-wrap: wrap;
+  max-width: 25%;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
